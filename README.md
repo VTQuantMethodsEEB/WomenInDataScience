@@ -119,19 +119,13 @@ Kate Langwig
 
 ## Tasks for today
 
--   1.  Configure Git on your computer
-
--   2.  Create a personal access token
-
--   3.  Set up a repository on GitHub
-
--   4.  clone that repository to your computer
-
--   5.  edit something in your repository
-
--   6.  commit your edits using Git
-
--   7.  Push your edits to GitHub
+-   Configure Git on your computer
+-   Create a personal access token
+-   Set up a repository on GitHub
+-   clone that repository to your computer
+-   edit something in your repository
+-   commit your edits using Git
+-   Push your edits to GitHub
 
 ## 1. Configure Git on your computer
 
@@ -191,15 +185,24 @@ gitcreds_get()
     your repository
     -   It will have a name like this:
         <https://github.com/VTQuantMethodsEEB/WomenInDataScience>
-    -   you should be able to just copy and paste from your browser!
 -   In Project Directory: It should have the same name as the repo on
     GitHub (should autofill). It should be the name after the last /
 -   Create Project as subdirectory: Pick a smart place on your computer
     that you find without using a search function
 -   Click OK and you should clone into a new window that says
     ‘YourRepo - main’
+
+## 4 cont. Exploring your Repository
+
+-   this repository is the same as your GitHub repo that ‘lives’ on your
+    local computer
 -   on the bottom right - Files tab, you should see your README and a
     file labeled REPO.Rproj
+-   this is a shortcut to your working directory and is how you can
+    easily access and shortcut scripts using relative paths
+-   unlike Dropbox or google drive, GitHub doesn’t automatically detect
+    changes to your local folder. You need to tell it you are making a
+    change using `commit`, and then send those changes using `push`.
 
 ## 5. Edit something in your repository
 
