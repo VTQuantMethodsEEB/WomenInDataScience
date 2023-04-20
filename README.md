@@ -154,9 +154,22 @@ use_git_config(user.name = "Jane Doe", "user.email = jane@vt.edu")
     user that is allowed to make changes to the folder
 -   We have to create a token that we store on our computers to allow us
     access to connect to GitHub
--   open this \[link\]
-    (<https://github.com/VTQuantMethodsEEB/WomenInDataScience/blob/main/git_token_help.R>)
+-   open this
+    [link](https://github.com/VTQuantMethodsEEB/WomenInDataScience/blob/main/git_token_help.R)
 -   copy and paste code and follow directions
+
+``` r
+#abbreviated here:
+usethis::create_github_token()
+#Look over the scopes; I highly recommend selecting 
+#“repo”, “user”, and “workflow”. 
+#Click “Generate token”.
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_set()
+#paste your personal access token
+gitcreds_get()
+```
 
 ## 3. Set up a repository on GitHub
 
