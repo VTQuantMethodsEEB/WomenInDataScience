@@ -133,8 +133,41 @@ use_git_config(user.name = "Jane Doe", "user.email = jane@vt.edu")
 - double click the file that ends in the extension .Rproj to open your Git linked project
 - Using the files tab, open the README file and type something there. This is the file that tells other users what is inside your project and what it does, but for now, you can add any text you want. Save the file when you are done (don't change the name)
 
-## 6. Commit your edits using Git
+## 6. Commit & Push your edits using Git
 - at the top of your RStudio screen there is a sideways GIT button (it is gray, red, and green) next to AddIns
 - click the dropdown and select 'Commit'
+- on the left side, you'll see items with changes. It should be your README and the files you added. 
+- check the boxes to stage the files and the Status should change to an M
+- in the box on the right, type a commit message (this is mandatory)
+- your message likely includes a very short description of what you did 'added file, README'
+- press commit
+- make sure you don't get any errors
+- press the 'Push' button
+
+## 7. Confirm that Push worked
+- go to your Github repo online (e.g. https://github.com/VTQuantMethodsEEB/WomenInDataScience)
+- ensure your files have updated to GitHub
+
+## 8. Adding collaborators
+- henceforth, you will always add & edit files in this manner. You should not directly modify files using the browser
+- If you want to collaborate with others, while on your GitHub repo, you will go to settings-->collaborator and teams--Add People
+- you can then search by their user name (try adding me klangwig)
+- can you can control what rights you give them
+
+## Collaborating using GitHub
+- if you have a collaborator on your project, they might make changes to something
+- to avoid lots of merge conflicts, you should always 'pull' when you open your project
+- this will make sure you are working on the most recent version
+- if you and your collaborator are both working on the project and haven't branched (or are merging branches), you'll need to resolve merge issues
+- this has to be done using the command line or the Desktop client (hence my recommendation for downloading)
+
+## Going further
+- Lots more to learn but you've accomplished the basics!
+- Take a look at all the commands here:
+https://happygitwithr.com/git-commands.html
+- Play around with GitHub desktop to get a feel for what it does
+- Venture into the shell and command line as you begin to explore more powerful GitHub tools
+
+
 
 
