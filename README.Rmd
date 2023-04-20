@@ -3,9 +3,9 @@ title: "GitHub"
 author: "Kate Langwig"
 date: "4/20/2023"
 output:
-  github_document: default
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
