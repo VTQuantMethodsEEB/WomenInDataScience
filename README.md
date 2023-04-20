@@ -3,6 +3,12 @@ GitHub
 Kate Langwig
 4/20/2023
 
+## Welcome to Women in Data Science GitHub workshop
+
+-   Click
+    [here](https://github.com/VTQuantMethodsEEB/WomenInDataScience) and
+    scroll down to follow along with course materials
+
 ## Workshop Goals
 
 -   Introduce Git & GitHub

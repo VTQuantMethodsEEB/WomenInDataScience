@@ -11,6 +11,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+## Welcome to Women in Data Science GitHub workshop
+- Click [here](https://github.com/VTQuantMethodsEEB/WomenInDataScience) and scroll down to follow along with course materials
 
 ## Workshop Goals
 - Introduce Git & GitHub
